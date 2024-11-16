@@ -4,7 +4,7 @@
   "description": "A simple Hello World widget",
   "type": "widget",
   "ui5": false,
-  "script": "https://raw.githubusercontent.com/your-username/HelloWorldWidget/main/widget.js",
+  "script": "https://raw.githubusercontent.com/Abdwarwar/hello-work/refs/heads/main/widget.js",
   "style": "https://raw.githubusercontent.com/your-username/HelloWorldWidget/main/style.css",
   "integrity": {
     "script": "sha384-<insert-script-hash>",
