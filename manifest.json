@@ -7,7 +7,6 @@
   "script": "https://raw.githubusercontent.com/Abdwarwar/hello-work/refs/heads/main/widget.js",
   "style": "https://raw.githubusercontent.com/Abdwarwar/hello-work/refs/heads/main/style.css",
   "integrity": {
-    "script": "sha384-<insert-script-hash>",
-    "style": "sha384-<insert-style-hash>"
+    "script": "sha384-9da1e7805383f722a0e8d394194eec551abf40bf408be845fe07cb4af3cb1120",
   }
 }
