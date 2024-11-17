@@ -16,7 +16,7 @@
     {
       "kind": "main",
       "tag": "com.sap.custom.helloworld",
-      "url": "/widget.js",
+      "url": "https://raw.githubusercontent.com/Abdwarwar/hello-work/refs/heads/main/widget.js",
       "integrity": "",
       "ignoreIntegrity": true
     }
