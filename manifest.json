@@ -1,39 +1,23 @@
 {
   "version": "1.0.0",
   "newInstancePrefix": "helloWorld_",
-  "webcomponents": true,
+  "id": "com.sap.custom.helloworld",
+  "description": "A simple Hello World widget",
   "properties": {
     "text": {
       "type": "string",
-      "label": "Text",
-      "defaultValue": "Hello World"
+      "default": "Hello World"
     }
   },
-  "methods": {
-    "init": {
-      "type": "function",
-      "parameters": [],
-      "returnType": "void"
+  "methods": {},
+  "events": {},
+  "webcomponents": [
+    {
+      "kind": "main",
+      "tag": "com.sap.custom.helloworld",
+      "url": "https://raw.githubusercontent.com/Abdwarwar/hello-work/main/widget.js",
+      "integrity": "",
+      "ignoreIntegrity": true
     }
-  },
-  "events": {
-    "onClick": {
-      "type": "function",
-      "parameters": [],
-      "returnType": "void"
-    }
-  },
-  "id": "com.sap.custom.helloworld",
-  "description": "A simple Hello World widget",
-  "script": "https://raw.githubusercontent.com/Abdwarwar/hello-work/refs/heads/main/widget.js"
+  ]
 }
-"webcomponents": [
-		{
-			"kind": "main",
-			"tag": "com.sap.custom.helloworld",
-			"url": "https://raw.githubusercontent.com/Abdwarwar/hello-work/refs/heads/main/widget.js",
-			"integrity": "",
-			"ignoreIntegrity": true
-		},
-],
-
