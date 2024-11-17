@@ -1,8 +1,29 @@
 {
-  "name": "HelloWorldWidget",
+  "version": "1.0.0",
+  "newInstancePrefix": "helloWorld_",
+  "webcomponents": true,
+  "properties": {
+    "text": {
+      "type": "string",
+      "label": "Text",
+      "defaultValue": "Hello World"
+    }
+  },
+  "methods": {
+    "init": {
+      "type": "function",
+      "parameters": [],
+      "returnType": "void"
+    }
+  },
+  "events": {
+    "onClick": {
+      "type": "function",
+      "parameters": [],
+      "returnType": "void"
+    }
+  },
   "id": "com.sap.custom.helloworld",
   "description": "A simple Hello World widget",
-  "type": "widget",
-  "ui5": false,
   "script": "https://raw.githubusercontent.com/Abdwarwar/hello-work/refs/heads/main/widget.js"
 }
