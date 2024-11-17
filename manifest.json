@@ -1,5 +1,6 @@
 {
   "version": "1.0.0",
+  "name": "HelloWorldWidget",
   "newInstancePrefix": "helloWorld_",
   "id": "com.sap.custom.helloworld",
   "description": "A simple Hello World widget",
